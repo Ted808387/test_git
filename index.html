@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>抬頭紋</title>
+  <style>
+    .box{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(48, 48, 117);
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    p{
+      color: white;
+    }
+    h1{
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>哈哈哈</h1>
+  <div class="box">
+    <p>123</p>
+  </div>
+  <script>
+    let a = document.querySelector('.box');
+    a.addEventListener('click', function(){
+      a.style.backgroundColor = 'black';
+      a.style.height = '150px';
+    });
+  </script>
+</body>
+</html>
